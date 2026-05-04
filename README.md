@@ -27,4 +27,4 @@
 欢迎提交 Issue、PR，或分享新的工具/案例！
 
 **最后更新**：2026年5月  
-**维护者**：Xiaobo Dai (DB Airon) - [LinkedIn](https://linkedin.com/in/你的ID) | [X](https://x.com/ThirsonU)
+**维护者**：Xiaobo Dai (DB Airon) - [LinkedIn](https://linkedin.com/in/xiaobo-dai/) | [X](https://x.com/ThirsonU)
