@@ -69,7 +69,7 @@
     - [FinCEN MSB 注册官方页面](https://www.fincen.gov/resources/money-services-business-msb-registration)
     - [FinCEN 虚拟货币指导意见](https://www.fincen.gov/resources/statutes-regulations/guidance/application-fincens-regulations-certain-business-models)
 
-### SEC（U.S. Securities and Exchange Commission，美国证券交易委员会）
+- ** SEC（U.S. Securities and Exchange Commission，美国证券交易委员会）**
 - **核心要求**：如果加密资产被认定为“证券”（Howey Test），则需遵守证券发行、注册、披露和交易监管。
 - **合规重点**：证券型代币（Security Tokens）、ICO/IDO、Staking、代币发行等活动的合规性判断。
 - **2026年最新进展**：SEC 发布了《联邦证券法对某些加密资产及交易的适用》解释性指引，提供更清晰的代币分类框架。
