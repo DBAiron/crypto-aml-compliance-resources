@@ -127,11 +127,28 @@
 
 **中文背景从业者建议**：优先考虑 **香港、新加坡、迪拜 VARA、阿布扎比 ADGM** 这四个友好辖区，作为职业发展和项目落地首选。
 
-## 3. 其他重要标准
+## 3. 其他重要国际标准与认证
 
-- **ISO 37001**：反贿赂管理体系
-- ** Wolfsberg Group** 虚拟资产原则
-- **C3O（Certified Crypto Compliance Officer）**：专业认证，证明具备 crypto 合规实战能力
+### ISO 37001：反贿赂管理体系
+- **核心内容**：国际标准化组织发布的反贿赂管理体系标准，适用于所有组织（包括 VASP）。
+- **合规意义**：帮助机构建立系统化的反贿赂政策、尽职调查、举报机制等，是大型机构和银行级合规的重要认证。
+- **重要链接**：
+  - [ISO 37001 官方介绍](https://www.iso.org/standard/65034.html)
+  - [ISO 37001 中文简介](https://www.iso.org/obp/ui/#iso:std:iso:37001:ed-1:v1:zh)
+
+### Wolfsberg Group 虚拟资产原则
+- **核心内容**：由全球领先银行组成的 Wolfsberg Group 发布的《Wolfsberg Virtual Asset Service Providers Principles》（VASP 原则）。
+- **合规意义**：提供金融机构与 VASP 合作时的 AML/CTF 最佳实践指引，重点包括 KYC、Travel Rule、制裁筛查和高风险客户管理。
+- **重要链接**：
+  - [Wolfsberg Group VASP Principles 官方文件](https://wolfsberg-group.org/wp-content/uploads/2024/02/Wolfsberg-Group-VASP-Principles.pdf)
+  - [Wolfsberg Group 官网](https://wolfsberg-group.org/)
+
+### C3O（Certified Crypto Compliance Officer）
+- **核心内容**：由 Global Association of Certified Crypto Compliance Officers 颁发的专业认证。
+- **合规意义**：目前 Crypto 领域最直接的对标认证，证明持证人具备虚拟资产风险管理、金融犯罪防控、监管合规等实战能力。
+- **重要链接**：
+  - [AC3O 官网](https://ac3o.org/)
+  - [C3O 认证详情](https://ac3o.org/certification/c3o/)
 
 ## 4. 合规实践建议
 - 优先关注 **FATF Travel Rule + OFAC Sanctions**（几乎所有 VASP 必做）
