@@ -61,8 +61,20 @@
 - [OFAC 官网 - Virtual Currency 专题](https://ofac.treasury.gov/faqs/topic/1626)
 
 ### 美国其他监管
-- FinCEN（货币服务业务 MSB 注册）
-- SEC（证券型代币监管）
+
+- **FinCEN（Financial Crimes Enforcement Network，金融犯罪执法网络）**
+  - **核心要求**：从事虚拟资产交换、转账等业务的实体需注册为 **Money Services Business (MSB)**。
+  - **合规重点**：AML 程序、KYC、可疑活动报告（SAR）。
+  - **重要链接**：
+    - [FinCEN MSB 注册官方页面](https://www.fincen.gov/resources/money-services-business-msb-registration)
+    - [FinCEN 虚拟货币指导意见](https://www.fincen.gov/resources/statutes-regulations/guidance/application-fincens-regulations-certain-business-models)
+
+- **SEC（U.S. Securities and Exchange Commission，美国证券交易委员会）**
+  - **核心要求**：如果加密资产被认定为“证券”（Howey Test），则需遵守证券发行、披露和交易监管。
+  - **合规重点**：证券型代币（Security Tokens）、ICO/IDO、Staking 等活动的合规。
+  - **重要链接**：
+    - [SEC Crypto Assets 指导意见 (2026)](https://www.sec.gov/files/rules/interp/2026/33-11412.pdf)
+    - [SEC 官网 - Crypto Assets 专题](https://www.sec.gov/crypto-assets)
 
 ### 亚洲重点监管（中文背景特别重要）
 - **香港**：SFC VASP 牌照制度 + Travel Rule
