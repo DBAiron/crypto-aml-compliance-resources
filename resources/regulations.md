@@ -2,17 +2,49 @@
 
 本文件整理了 Web3 / Crypto Compliance 领域最重要的监管框架，重点针对 **VASP（虚拟资产服务商）** 的合规要求。持续更新。
 
-## 1. 全球标准
+## 1. 全球标准（FATF 框架）
+
+**FATF（金融行动特别工作组）** 是全球反洗钱和反恐怖融资的标准制定者，其标准被 200+ 个司法管辖区采用，是加密合规的**事实上的全球基准**。
+
+### FATF Recommendations（40+9 项建议）
+- 2012 年发布并持续更新，将**虚拟资产（VA）和虚拟资产服务商（VASP）** 纳入 AML/CTF 监管框架。
+- **最核心的两项**：
+  - **Recommendation 15**：新科技与虚拟资产（VASP 需注册、实施 AML 措施）
+  - **Recommendation 16**：**Travel Rule（旅行规则）**
 
 ### FATF Travel Rule（旅行规则 / Recommendation 16）
-- **核心要求**：虚拟资产转账时，VASP 必须与对方交换发送方（Originator）和接收方（Beneficiary）的身份信息（姓名、账号、地址等）。
-- **适用范围**：跨境及大额虚拟资产转账，是全球 AML/CTF 的核心要求。
-- **当前状态**（2026）：多数国家已立法实施，持续加强监督。
+- **核心要求**：VASP 在进行虚拟资产转账时，必须收集并安全传输**发送方（Originator）** 和 **接收方（Beneficiary）** 的身份信息（姓名、账号、地址等）。
+- **适用场景**：跨境及一定金额以上的转账。
+- **当前全球实施情况**（2026）：已有 85+ 个司法管辖区通过或正在实施相关立法。
+- **合规意义**：这是 VASP 必须遵守的最重要全球标准之一，直接影响 KYT、尽调和跨链转账流程。
 
-**重要官方链接**：
-- [FATF Recommendation 16 更新说明 (2025)](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/update-Recommendation-16-payment-transparency-june-2025.html)
-- [Best Practices on Travel Rule Supervision (2025)](https://www.fatf-gafi.org/content/dam/fatf-gafi/recommendations/Best-Practices-Travel-Rule-Supervision.pdf)
-- [FATF Virtual Assets 专题页](https://www.fatf-gafi.org/en/topics/virtual-assets.html)
+**重要链接**：
+- [FATF 40 Recommendations 官方全文](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html)
+- [FATF Virtual Assets Guidance](https://www.fatf-gafi.org/en/publications/Methodsandtrends/Virtual-assets.html)
+- [Travel Rule 全球实施地图（Notabene）](https://notabene.id/jurisdictions)
+
+---
+
+### 关于**全球监管地图**的想法
+
+**非常好的想法！** 视觉化地图会让这个文件**生动很多**，读者一眼就能看懂不同国家的态度。
+
+**实现建议**（两种方案）：
+
+1. **最简单方案**（推荐先做这个）：
+   在上面 Travel Rule 部分后面加一段文字 + 外部链接（不用自己画图）：
+
+   ```markdown
+   ### 全球加密监管友好度概览（2026）
+   - **极度友好（绿色）**：阿联酋（Dubai VARA）、新加坡、香港
+   - **友好（浅绿）**：瑞士、加拿大、澳大利亚
+   - **中性/严格监管（黄色）**：欧盟（MiCA）、美国、英国
+   - **严格限制（红色）**：中国大陆（禁止 ICO 和交易所）
+   - **其他**：印度、俄罗斯等正在动态调整
+
+   **推荐查看互动地图**：
+   - [Atlantic Council Crypto Regulation Tracker](https://www.atlanticcouncil.org/programs/geoeconomics-center/cryptoregulationtracker/)
+   - [Notabene Travel Rule 全球实施地图](https://notabene.id/jurisdictions)
 
 ## 2. 区域与国家监管
 
