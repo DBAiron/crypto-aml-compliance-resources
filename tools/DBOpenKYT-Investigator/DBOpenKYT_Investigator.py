@@ -5,7 +5,7 @@ import time
 
 # ================== 配置区 ==================
 # 去 https://etherscan.io/myapikey 免费注册获取 API Key（每天有免费额度）
-ETHERSCAN_API_KEY = "你的Etherscan_API_Key_填在这里"
+ETHERSCAN_API_KEY = "MSMYIABQYUQASNR72RKNWPMIY2CK965WUF"
 
 # 示例地址（你可以改成任何ETH地址）
 EXAMPLE_ADDRESS = "0x28C6c06298d514Db089934071355E5743bf21d60"  # Binance Hot Wallet 示例
