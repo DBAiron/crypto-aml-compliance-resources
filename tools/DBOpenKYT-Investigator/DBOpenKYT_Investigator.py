@@ -92,7 +92,6 @@ def investigate(address):
 
 # ================== 运行 ==================
 if __name__ == "__main__":
-    target = input("请输入要调查的 ETH 地址 (直接回车使用示例): ").strip()
-    if not target:
-        target = EXAMPLE_ADDRESS
+    target = EXAMPLE_ADDRESS  # 直接使用示例地址测试
+    print("使用示例地址进行测试...\n")
     investigate(target)
