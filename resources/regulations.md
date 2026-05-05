@@ -4,13 +4,15 @@
 
 ## 1. 全球标准
 
-### FATF Travel Rule（旅行规则）
-- **核心要求**：VASP之间在转账时必须交换发送方和接收方的身份信息（Originator & Beneficiary Information）。
-- **适用范围**：跨境虚拟资产转账。
-- **合规意义**：是全球反洗钱（AML）的基石，已被多数国家采用。
-- **重要链接**：
-  - [FATF 官方指南](https://www.fatf-gafi.org/en/publications/Financialinclusionandnrb/Travel-rule-guidance.html)
-  - [FATF Virtual Assets Guidance](https://www.fatf-gafi.org/en/publications/Methodsandtrends/Virtual-assets.html)
+### FATF Travel Rule（旅行规则 / Recommendation 16）
+- **核心要求**：虚拟资产转账时，VASP 必须与对方交换发送方（Originator）和接收方（Beneficiary）的身份信息（姓名、账号、地址等）。
+- **适用范围**：跨境及大额虚拟资产转账，是全球 AML/CTF 的核心要求。
+- **当前状态**（2026）：多数国家已立法实施，持续加强监督。
+
+**重要官方链接**：
+- [FATF Recommendation 16 更新说明 (2025)](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/update-Recommendation-16-payment-transparency-june-2025.html)
+- [Best Practices on Travel Rule Supervision (2025)](https://www.fatf-gafi.org/content/dam/fatf-gafi/recommendations/Best-Practices-Travel-Rule-Supervision.pdf)
+- [FATF Virtual Assets 专题页](https://www.fatf-gafi.org/en/topics/virtual-assets.html)
 
 ### FATF Recommendations（40+9 项建议）
 - 加密资产被定义为“虚拟资产”，VASP需履行与传统金融机构相同的 AML/CTF 义务。
