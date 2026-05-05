@@ -23,16 +23,24 @@
 - [FATF Virtual Assets Guidance](https://www.fatf-gafi.org/en/publications/Methodsandtrends/Virtual-assets.html)
 - [Travel Rule 全球实施地图（Notabene）](https://notabene.id/jurisdictions)
 
-### 全球加密监管友好度概览（2026）
-   - **极度友好（绿色）**：阿联酋（Dubai VARA）、新加坡、香港
-   - **友好（浅绿）**：瑞士、加拿大、澳大利亚
-   - **中性/严格监管（黄色）**：欧盟（MiCA）、美国、英国
-   - **严格限制（红色）**：中国大陆（禁止 ICO 和交易所）
-   - **其他**：印度、俄罗斯等正在动态调整
+### 🌍 全球加密监管友好度地图（2026年概览）
 
-   **推荐查看互动地图**：
-   - [Atlantic Council Crypto Regulation Tracker](https://www.atlanticcouncil.org/programs/geoeconomics-center/cryptoregulationtracker/)
-   - [Notabene Travel Rule 全球实施地图](https://notabene.id/jurisdictions)
+以下是主要司法管辖区的监管态度分类（基于友好程度）：
+
+| 颜色 | 监管态度 | 代表国家/地区 | 特点 |
+|------|----------|---------------|------|
+| **🟢 极度友好** | 全面支持 + 清晰牌照 | 阿联酋（Dubai VARA）、新加坡、香港 | 积极发牌、Web3 友好政策 |
+| **🟡 友好** | 许可制 + 创新友好 | 瑞士、日本、澳大利亚、加拿大 | 明确监管框架，支持创新 |
+| **🟠 中性/严格** | 全面监管但可合规 | 欧盟（MiCA）、美国、英国 | 牌照要求高、合规成本较高 |
+| **🔴 严格限制** | 禁止或重度限制 | 中国大陆、印度（部分限制） | ICO/交易所禁止或严格管控 |
+
+**推荐互动地图（强烈建议点击查看）**：
+
+- **[Atlantic Council Crypto Regulation Tracker](https://www.atlanticcouncil.org/programs/geoeconomics-center/cryptoregulationtracker/)** —— 最权威的全球加密监管互动地图（覆盖75+国家，可点击查看详情）
+- **[Notabene Travel Rule Adoption Map](https://notabene.id/jurisdictions)** —— 专注于 Travel Rule 全球实施情况
+- **[PwC Global Crypto Regulation Report 2026](https://www.pwc.com/gx/en/industries/financial-services/publications/global-crypto-regulation-report.html)** —— 最新报告与地图
+
+**小贴士**：对于中文背景的合规从业者，**香港、新加坡、迪拜** 是目前最现实的友好辖区。
 
 ## 2. 区域与国家监管
 
