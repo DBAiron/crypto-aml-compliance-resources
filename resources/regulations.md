@@ -79,11 +79,51 @@
 - [SEC 2026 Crypto Assets 解释性指引新闻稿](https://www.sec.gov/newsroom/press-releases/2026-30-sec-clarifies-application-federal-securities-laws-crypto-assets)
 - [完整指引 PDF](https://www.sec.gov/files/rules/interp/2026/33-11412.pdf)
 
-### 亚洲重点监管（中文背景特别重要）
-- **香港**：SFC VASP 牌照制度 + Travel Rule
-- **新加坡**：MAS 数字支付代币服务（DPT）牌照
-- **迪拜**：VARA 全面监管框架（对 Web3 非常友好）
-- **日本**：FSA 加密资产交易所注册制
+### 亚洲重点监管（对中文背景从业者特别重要）
+
+亚洲是目前 Web3 合规最活跃的区域之一，以下是中文背景转型者最值得关注的辖区：
+
+#### 香港（Hong Kong）
+- **监管机构**：SFC（证券及期货事务监察委员会）
+- **核心制度**：虚拟资产交易平台（VATP）牌照 + VASP 监管
+- **重点要求**：Travel Rule、客户资产隔离、投资者保护
+- **最新进展**（2026）：持续扩展牌照范围至 VA 咨询和管理服务
+- **链接**：
+  - [SFC 虚拟资产交易平台列表](https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms)
+  - [SFC AML Guideline for VASPs](https://www.sfc.hk/-/media/EN/files/LSD/Gazette/GN-3120-of-2023.pdf)
+
+#### 新加坡（Singapore）
+- **监管机构**：MAS（货币管理局）
+- **核心制度**：Digital Payment Token (DPT) 服务牌照（Payment Services Act）
+- **重点要求**：资本要求、AML/CTF、本地实体要求
+- **链接**：
+  - [MAS DPT 服务许可指南](https://www.mas.gov.sg/regulation/guidelines/guidelines-on-licensing-for-dtsps)
+  - [MAS Payment Services Act](https://www.mas.gov.sg/regulation/acts/payment-services-act)
+
+#### 迪拜（Dubai） - VARA
+- **监管机构**：VARA（Virtual Assets Regulatory Authority）
+- **核心制度**：全面 VASP 牌照制度（全球最友好之一）
+- **特点**：对零售和机构都友好，支持衍生品，监管灵活
+- **链接**：
+  - [VARA 官网](https://www.vara.ae/en/)
+  - [VARA Rulebooks](https://rulebooks.vara.ae/)
+
+#### 阿布扎比（Abu Dhabi） - ADGM
+- **监管机构**：FSRA（Financial Services Regulatory Authority）
+- **核心制度**：金融自由区全面监管框架，支持 Staking、虚拟资产托管等创新业务
+- **特点**：国际金融中心定位，规则与传统金融高度接轨，对机构友好
+- **链接**：
+  - [ADGM FSRA Virtual Asset Framework](https://www.adgm.com/)
+  - [ADGM Virtual Asset Activities Guidance](https://en.adgm.thomsonreuters.com/rulebook/guidance-regulation-virtual-asset-activities-adgm-10-june-2025)
+
+#### 日本（Japan）
+- **监管机构**：FSA（金融厅）
+- **核心制度**：Crypto Asset Exchange Service Provider 注册制
+- **重点要求**：严格的 AML、投资者保护、cybersecurity
+- **链接**：
+  - [FSA Crypto Regulation](https://www.fsa.go.jp/en/)
+
+**中文背景从业者建议**：优先考虑 **香港、新加坡、迪拜 VARA、阿布扎比 ADGM** 这四个友好辖区，作为职业发展和项目落地首选。
 
 ## 3. 其他重要标准
 
