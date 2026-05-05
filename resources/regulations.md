@@ -4,17 +4,15 @@
 
 ## 1. 全球标准
 
-### FATF Recommendations（FATF 40+9 项建议）
-- **核心内容**：FATF 于2012年发布40项建议 + 9项特别建议（合规领域俗称“40+9”），将虚拟资产（VA）和VASP纳入反洗钱框架。
-- **最重要部分**：
-  - Recommendation 15：新科技与虚拟资产
-  - Recommendation 16：Travel Rule（旅行规则）
-- **合规意义**：几乎所有国家的加密监管都以 FATF 标准为基础。
+### FATF Travel Rule（旅行规则 / Recommendation 16）
+- **核心要求**：虚拟资产转账时，VASP 必须与对方交换发送方（Originator）和接收方（Beneficiary）的身份信息（姓名、账号、地址等）。
+- **适用范围**：跨境及大额虚拟资产转账，是全球 AML/CTF 的核心要求。
+- **当前状态**（2026）：多数国家已立法实施，持续加强监督。
 
 **重要官方链接**：
-- [FATF 40 Recommendations 官方全文 (2025版)](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html)
-- [FATF Virtual Assets Guidance](https://www.fatf-gafi.org/en/publications/Methodsandtrends/Virtual-assets.html)
-- [FATF 中文版参考（部分）](https://www.fatf-gafi.org/content/dam/fatf-gafi/translations/fatf-recommendations-chinese.pdf)
+- [FATF Recommendation 16 更新说明 (2025)](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/update-Recommendation-16-payment-transparency-june-2025.html)
+- [Best Practices on Travel Rule Supervision (2025)](https://www.fatf-gafi.org/content/dam/fatf-gafi/recommendations/Best-Practices-Travel-Rule-Supervision.pdf)
+- [FATF Virtual Assets 专题页](https://www.fatf-gafi.org/en/topics/virtual-assets.html)
 
 ## 2. 区域与国家监管
 
