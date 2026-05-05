@@ -23,19 +23,7 @@
 - [FATF Virtual Assets Guidance](https://www.fatf-gafi.org/en/publications/Methodsandtrends/Virtual-assets.html)
 - [Travel Rule 全球实施地图（Notabene）](https://notabene.id/jurisdictions)
 
----
-
-### 关于**全球监管地图**的想法
-
-**非常好的想法！** 视觉化地图会让这个文件**生动很多**，读者一眼就能看懂不同国家的态度。
-
-**实现建议**（两种方案）：
-
-1. **最简单方案**（推荐先做这个）：
-   在上面 Travel Rule 部分后面加一段文字 + 外部链接（不用自己画图）：
-
-   ```markdown
-   ### 全球加密监管友好度概览（2026）
+### 全球加密监管友好度概览（2026）
    - **极度友好（绿色）**：阿联酋（Dubai VARA）、新加坡、香港
    - **友好（浅绿）**：瑞士、加拿大、澳大利亚
    - **中性/严格监管（黄色）**：欧盟（MiCA）、美国、英国
