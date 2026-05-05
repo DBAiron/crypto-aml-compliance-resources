@@ -69,15 +69,14 @@
     - [FinCEN MSB 注册官方页面](https://www.fincen.gov/resources/money-services-business-msb-registration)
     - [FinCEN 虚拟货币指导意见](https://www.fincen.gov/resources/statutes-regulations/guidance/application-fincens-regulations-certain-business-models)
 
-- ** SEC（U.S. Securities and Exchange Commission，美国证券交易委员会）**
-- **核心要求**：如果加密资产被认定为“证券”（Howey Test），则需遵守证券发行、注册、披露和交易监管。
-- **合规重点**：证券型代币（Security Tokens）、ICO/IDO、Staking、代币发行等活动的合规性判断。
-- **2026年最新进展**：SEC 发布了《联邦证券法对某些加密资产及交易的适用》解释性指引，提供更清晰的代币分类框架。
-
-**重要官方链接**：
-- [SEC Crypto Assets and Federal Securities Laws 主页](https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/crypto-assets-federal-securities-laws)
-- [SEC 2026 Crypto Assets 解释性指引新闻稿](https://www.sec.gov/newsroom/press-releases/2026-30-sec-clarifies-application-federal-securities-laws-crypto-assets)
-- [完整指引 PDF](https://www.sec.gov/files/rules/interp/2026/33-11412.pdf)
+- **SEC（U.S. Securities and Exchange Commission，美国证券交易委员会）**
+  - **核心要求**：如果加密资产被认定为“证券”（Howey Test），则需遵守证券发行、注册、披露和交易监管。
+  - **合规重点**：证券型代币（Security Tokens）、ICO/IDO、Staking、代币发行等活动的合规性判断。
+  - **2026年最新进展**：SEC 发布了《联邦证券法对某些加密资产及交易的适用》解释性指引，提供更清晰的代币分类框架。
+  - **重要链接**：
+    - [SEC Crypto Assets 主页](https://www.sec.gov/crypto-assets)
+    - [SEC 2026 Crypto Assets 解释性指引](https://www.sec.gov/newsroom/press-releases/2026-30-sec-clarifies-application-federal-securities-laws-crypto-assets)
+    - [完整指引 PDF](https://www.sec.gov/files/rules/interp/2026/33-11412.pdf)
 
 ### 亚洲重点监管（对中文背景从业者特别重要）
 
