@@ -51,9 +51,14 @@
 - **链接**： [MiCA 官方文本](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1114)
 
 ### OFAC Sanctions（美国财政部外国资产控制办公室）
-- **核心**：制裁名单筛查（SDN List），禁止与制裁实体交易。
-- **合规重点**：地址筛查 + 间接暴露风险（Indirect Exposure）。
-- **链接**： [OFAC SDN List](https://sanctionssearch.ofac.treas.gov/) | [OFAC Crypto Guidance](https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions)
+- **核心要求**：必须筛查并禁止与 SDN（Specially Designated Nationals）制裁名单上的实体进行任何交易，包括**间接暴露**（Indirect Exposure）。
+- **合规重点**：地址/钱包筛查、制裁规避识别、资金冻结报告。
+- **对 Crypto 的特殊意义**：OFAC 已多次将特定地址（如 Tornado Cash）列入制裁名单，是 VASP 日常 KYT 的必做事项。
+
+**重要官方链接**：
+- [OFAC Virtual Currency Sanctions Compliance Guidance](https://ofac.treasury.gov/media/913571/download?inline) （虚拟资产制裁合规指南，主文档）
+- [OFAC Sanctions List Search（实时查询工具）](https://sanctionssearch.ofac.treas.gov/)
+- [OFAC 官网 - Virtual Currency 专题](https://ofac.treasury.gov/faqs/topic/1626)
 
 ### 美国其他监管
 - FinCEN（货币服务业务 MSB 注册）
