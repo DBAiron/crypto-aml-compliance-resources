@@ -110,18 +110,20 @@
 
 #### 阿布扎比（Abu Dhabi） - ADGM
 - **监管机构**：FSRA（Financial Services Regulatory Authority）
-- **核心制度**：金融自由区全面监管框架，支持 Staking、虚拟资产托管等创新业务
-- **特点**：国际金融中心定位，规则与传统金融高度接轨，对机构友好
-- **链接**：
-  - [ADGM FSRA Virtual Asset Framework](https://www.adgm.com/)
-  - [ADGM Virtual Asset Activities Guidance](https://en.adgm.thomsonreuters.com/rulebook/guidance-regulation-virtual-asset-activities-adgm-10-june-2025)
+- **核心制度**：Virtual Asset Framework（全球最早且最成熟的虚拟资产全面监管框架之一）
+- **特点**：支持交易所、托管、Staking 等多种业务，对机构投资者非常友好，规则与传统金融高度接轨。
+- **重要链接**：
+  - [Guidance – Regulation of Virtual Asset Activities in ADGM (2025更新)](https://en.adgm.thomsonreuters.com/rulebook/guidance-regulation-virtual-asset-activities-adgm-10-june-2025)
+  - [ADGM Virtual Asset Framework 官方页面](https://www.adgm.com/business-areas/digital-assets)
 
 #### 日本（Japan）
 - **监管机构**：FSA（金融厅）
-- **核心制度**：Crypto Asset Exchange Service Provider 注册制
-- **重点要求**：严格的 AML、投资者保护、cybersecurity
-- **链接**：
-  - [FSA Crypto Regulation](https://www.fsa.go.jp/en/)
+- **核心制度**：Crypto Asset Exchange Service Provider 注册制（即将转向金融工具交易法监管）
+- **重点要求**：严格的 AML、客户资产保护、网络安全、投资者保护。
+- **重要链接**：
+  - [FSA Crypto Asset Exchange Service Providers 注册列表](https://www.fsa.go.jp/en/regulated/licensed/en_kasoutuka.xlsx)
+  - [Guideline for Supervision of Crypto-Asset Exchange Service Providers](https://www.fsa.go.jp/common/law/guide/kaisya/e016.pdf)
+  - [FSA 加密资产监管页面](https://www.fsa.go.jp/en/policy/cryptocurrency.html)
 
 **中文背景从业者建议**：优先考虑 **香港、新加坡、迪拜 VARA、阿布扎比 ADGM** 这四个友好辖区，作为职业发展和项目落地首选。
 
