@@ -148,12 +148,47 @@
 - **合规意义**：目前 Crypto 领域最直接的对标认证，证明持证人具备虚拟资产风险管理、金融犯罪防控、监管合规等实战能力。
 - **重要链接**：
   - [AC3O 官网](https://ac3o.org/)
-  - [C3O 认证详情](https://ac3o.org/certification/c3o/)
+  - [C3O 认证详情](https://ac3o.org/certification/)
 
-## 4. 合规实践建议
-- 优先关注 **FATF Travel Rule + OFAC Sanctions**（几乎所有 VASP 必做）
-- 建立 **风险-based approach**（风险分级）
-- 定期更新制裁名单 + 监控监管动态
+## 4. 合规实践建议（VASP 日常落地指南）
+
+### 优先级最高的事项（必做）
+- **FATF Travel Rule** + **OFAC Sanctions 筛查**：几乎所有 VASP 的核心合规要求，必须每日执行。
+- **持续监控制裁名单** + **监管动态跟踪**。
+
+### 风险分级方法（Risk-Based Approach - RBA）
+建议将客户/交易/地址分为 **4 个风险等级**：
+
+| 风险等级 | 描述 | 典型特征 | 应对措施 |
+|----------|------|----------|----------|
+| **低风险** | 常规用户 | 已完成 KYC、本地小额交易、知名交易所转入 | 标准 KYC + 常规监控 |
+| **中风险** | 需要关注 | 大额交易（>1万 USD）、新用户、跨境转账 | 加强 KYC + 定期复查 |
+| **高风险** | 需重点调查 | 来自高风险国家、与 Mixer/Privacy Coin 交互、异常交易模式 | Enhanced Due Diligence (EDD) + 人工审查 |
+| **极高风险** | 立即行动 | 匹配制裁地址、已知黑客/诈骗地址、大量 Mixer 流入 | 立即冻结 + 提交 SAR + 内部上报 |
+
+### 制裁名单更新与监控（具体操作建议）
+- **更新频率**：
+  - **每日**：至少检查一次 OFAC SDN List、欧盟制裁名单、UN 制裁名单。
+  - **实时**：重要警报或大额交易时立即查询。
+- **主要数据源**：
+  - [OFAC SDN List Search](https://sanctionssearch.ofac.treas.gov/)
+  - [EU Sanctions Map](https://www.sanctionsmap.eu/)
+  - Chainalysis / TRM Labs / Elliptic 等工具的制裁数据库（推荐）
+- **最佳实践**：使用脚本/API 实现自动化批量筛查，每天生成“制裁匹配报告”。
+
+### 监管动态监控（建议机制）
+- **监控频率**：**每周至少 2-3 次**（重要国家每月做一次深度总结）。
+- **核心信息源**：
+  - FATF 官网更新
+  - 香港 SFC、新加坡 MAS、迪拜 VARA、阿布扎比 ADGM 官方公告
+  - CoinDesk / The Block / RegTech 新闻
+  - Notabene、Elliptic 等平台的监管简报
+- **推荐做法**：
+  - 建立 **监管变更追踪表**（Excel 或 Notion）
+  - 加入行业群组（Crypto Compliance Discord、LinkedIn 群）
+  - 订阅官方邮件提醒（FATF、SFC、MAS 等）
+
+**建议**：中小团队可指定专人负责“每周监管简报”，大型机构建议建立 **Regulatory Change Management** 流程。
 
 ---
 
