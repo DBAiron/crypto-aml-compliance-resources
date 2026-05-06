@@ -4,73 +4,107 @@ This document organizes the most important regulatory frameworks in the Web3 / C
 
 ---
 
-# 1. Global Standard 全球底层标准
-## 1.1 FATF 全球反洗钱核心框架
-**FATF（金融行动特别工作组）** 是全球反洗钱、反恐怖融资、反扩散融资的标准制定者，标准被200+司法管辖区采纳，是加密合规事实上的全球基准。
+# 1. Global Standards
 
-### FATF Recommendations（40+9 项建议）
-- 2012 年发布并持续更新，将**虚拟资产（VA）和虚拟资产服务商（VASP）** 纳入 AML/CTF/CPF 监管框架。
-- **最核心的两项**：
-  - **Recommendation 15**：新科技与虚拟资产（VASP 需注册、实施 AML 基础措施）
-  - **Recommendation 16**：**Travel Rule（旅行规则）**
+## 1.1 FATF Global AML/CTF Framework
 
-### FATF Travel Rule（旅行规则 / Recommendation 16）
-- **核心要求**：VASP 在进行虚拟资产转账时，必须收集并安全传输**发送方（Originator）** 和 **接收方（Beneficiary）** 的身份信息（姓名、账号、地址等）。
-- **适用场景**：跨境及一定金额以上的大额加密转账。
-- **当前全球实施情况**（2026）：已有 85+ 个司法管辖区通过或正在实施相关立法。
-- **合规意义**：这是 VASP 必须遵守的最重要全球标准之一，直接影响 KYT、链上尽调和跨链转账全流程。
+**FATF (Financial Action Task Force)** is the global standard-setting body for anti-money laundering, counter-terrorist financing, and counter-proliferation financing. Its standards have been adopted by over 200 jurisdictions and serve as the **de facto global benchmark** for crypto compliance.
 
-**重要链接**：
-- [FATF 40 Recommendations 官方全文](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html)
+### FATF Recommendations (40 + 9)
+- Issued in 2012 and continuously updated, formally incorporating **Virtual Assets (VA)** and **Virtual Asset Service Providers (VASP)** into the AML/CTF/CPF regulatory framework.
+- **Most critical items**:
+  - **Recommendation 15**: New Technologies and Virtual Assets (VASP registration and basic AML obligations)
+  - **Recommendation 16**: **Travel Rule**
+
+### FATF Travel Rule (Recommendation 16)
+- **Core Requirement**: When conducting virtual asset transfers, VASPs must collect and securely transmit **Originator** and **Beneficiary** information (name, account number, address, etc.).
+- **Scope**: Cross-border and above-threshold high-value crypto transfers.
+- **Current Global Status (2026)**: Adopted or in the process of implementation by over 85 jurisdictions.
+- **Compliance Significance**: One of the most important global standards for VASPs, directly impacting KYT, on-chain due diligence, and cross-chain transfer processes.
+
+**Key Links**:
+- [FATF 40 Recommendations (Official)](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html)
 - [FATF Virtual Assets Guidance](https://www.fatf-gafi.org/en/publications/Methodsandtrends/Virtual-assets.html)
-- [Travel Rule 全球实施地图（Notabene）](https://notabene.id/jurisdictions)
+- [Travel Rule Global Adoption Map (Notabene)](https://notabene.id/jurisdictions)
 
-## 1.2 联合国全球合规基准
-- **UN 1267/1373 决议**：全球反恐怖融资、定向制裁底层框架，所有国家及VASP均需遵循。
-- 作为各国制定AML/CFT法规、制裁名单的上位法依据。
+## 1.2 United Nations Global Compliance Benchmark
 
-## 1.3 全球行业自律与专业标准
-### ISO 37001：反贿赂管理体系
-- **核心内容**：国际标准化组织发布的反贿赂管理体系标准，适用于所有机构及VASP。
-- **合规意义**：建立系统化反贿赂、尽职调查、举报风控机制，是机构合作与牌照申请加分项。
-- **重要链接**：
-  - [ISO 37001 官方介绍](https://www.iso.org/standard/65034.html)
-  - [ISO 37001 中文简介](https://www.iso.org/obp/ui/#iso:std:iso:37001:ed-1:v1:zh)
+- **UN Security Council Resolutions 1267/1373**: The foundational global framework for counter-terrorist financing and targeted sanctions. All countries and VASPs are required to comply.
+- These resolutions serve as the **upper-level legal basis** for national AML/CFT regulations and sanctions lists worldwide.
 
-### Wolfsberg Group 虚拟资产原则
-- **核心内容**：全球头部银行组成的沃尔夫斯堡集团发布 VASP 专项合规原则。
-- **合规意义**：定义传统金融与加密机构合作的AML、KYC、旅行规则、高风险客户管理最佳实践。
-- **重要链接**：
-  - [Wolfsberg Group VASP Principles 官方文件](https://wolfsberg-group.org/wp-content/uploads/2024/02/Wolfsberg-Group-VASP-Principles.pdf)
-  - [Wolfsberg Group 官网](https://wolfsberg-group.org/)
+**Key Links**:
+- [UN Security Council Resolution 1267](https://www.un.org/securitycouncil/sanctions/1267)
+- [UN Security Council Resolution 1373](https://www.un.org/securitycouncil/content/1373)
+- [UN Sanctions Consolidated List](https://www.un.org/securitycouncil/content/un-sc-consolidated-list)
 
-### C3O（Certified Crypto Compliance Officer）
-- **核心内容**：全球加密合规官专业认证体系。
-- **合规意义**：Web3合规、AML风控、监管对接岗位的专业能力背书。
-- **重要链接**：
-  - [AC3O 官网](https://ac3o.org/)
-  - [C3O 认证详情](https://ac3o.org/certification/)
+## 1.3 Global Industry Self-Regulatory and Professional Standards
+
+### ISO 37001: Anti-Bribery Management Systems
+- **Core Content**: An international standard published by the International Organization for Standardization (ISO) that specifies requirements for establishing, implementing, maintaining, and improving an anti-bribery management system.
+- **Applicability**: Applicable to all types of organizations, including VASPs, banks, and fintech companies, regardless of size or jurisdiction.
+- **Compliance Significance**: 
+  - Helps organizations build systematic anti-bribery policies, due diligence procedures, risk assessments, and whistleblowing mechanisms.
+  - Serves as a strong differentiator in institutional partnerships, licensing applications, and enterprise-level compliance audits.
+- **Key Links**:
+  - [ISO 37001 Official Page](https://www.iso.org/standard/65034.html)
+  - [ISO 37001 Chinese Introduction](https://www.iso.org/obp/ui/#iso:std:iso:37001:ed-1:v1:zh)
+
+### Wolfsberg Group Virtual Asset Principles
+- **Core Content**: A set of principles developed by the Wolfsberg Group — an association of thirteen leading global banks — specifically addressing compliance expectations for Virtual Asset Service Providers (VASPs).
+- **Key Focus Areas**:
+  - Customer Due Diligence (CDD) and Enhanced Due Diligence (EDD)
+  - Implementation of the Travel Rule
+  - Sanctions screening and compliance
+  - High-risk customer and transaction management
+  - Governance, training, and ongoing monitoring
+- **Compliance Significance**: Provides practical guidance on how traditional financial institutions can safely engage with VASPs. Widely referenced by banks, regulators, and VASPs as a benchmark for responsible crypto business partnerships and risk mitigation.
+- **Key Links**:
+  - [Wolfsberg Group VASP Principles (Official PDF)](https://wolfsberg-group.org/wp-content/uploads/2024/02/Wolfsberg-Group-VASP-Principles.pdf)
+  - [Wolfsberg Group Official Website](https://wolfsberg-group.org/)
+
+### Global Industry Self-Regulatory and Professional Standards
+
+- **CAMS (Certified Anti-Money Laundering Specialist)**  
+  The globally recognized gold standard AML certification offered by ACAMS. Highly valued by both traditional financial institutions and crypto companies.  
+  **Link**: [ACAMS CAMS Certification](https://www.acams.org/en/certifications/cams-certification)
+
+- **C3O (Certified Crypto Compliance Officer)**  
+  A professional certification specifically designed for crypto and virtual asset compliance officers. Strong endorsement for Web3 AML, KYT, Travel Rule, and regulatory roles.  
+  **Link**: [AC3O Official Website](https://ac3o.org/)
+
+- **CCAS (Certified Cryptoasset Anti-Financial Crime Specialist)**  
+  ACAMS specialized certification focusing on crypto-specific AML and financial crime prevention.  
+  **Link**: [ACAMS CCAS](https://www.acams.org/en/certifications/ccas-certification)
+
+- **Chainalysis Certified Compliance Analyst**  
+  Technical certification demonstrating proficiency in blockchain analytics and investigation tools (highly regarded in industry).  
+
+- **ICA Certificate in Anti-Money Laundering**  
+  Offered by the International Compliance Association, widely recognized in international finance and regulatory environments.  
+  **Link**: [ICA Certifications](https://www.int-comp.org/qualifications/)
+
+**Recommendation**: **CAMS + C3O** is currently one of the strongest certification combinations for Web3 Compliance and VASP roles.
 
 ---
 
 # 2. Regional Regulation 分辖区监管
-## 2.1 全球加密监管友好度总览
-### 🌍 全球加密监管友好度地图（2026年概览）
-以下是主要司法管辖区的监管态度分类（基于友好程度）：
+## 2.1 Global Crypto Regulatory Friendliness Overview
 
-| 颜色 | 监管态度 | 代表国家/地区 | 特点 |
-|------|----------|---------------|------|
-| **🟢 极度友好** | 全面支持 + 清晰牌照 | 阿联酋（Dubai VARA）、新加坡、香港 | 积极发牌、Web3 友好政策 |
-| **🟡 友好** | 许可制 + 创新友好 | 瑞士、日本、澳大利亚、加拿大 | 明确监管框架，支持创新 |
-| **🟠 中性/严格** | 全面监管但可合规 | 欧盟（MiCA）、美国、英国 | 牌照要求高、合规成本较高 |
-| **🔴 严格限制** | 禁止或重度限制 | 中国大陆、印度（部分限制） | ICO/交易所禁止或严格管控 |
+### 🌍 Global Crypto Regulatory Friendliness Map (2026 Overview)
 
-**推荐互动地图（强烈建议点击查看）**：
-- [Atlantic Council Crypto Regulation Tracker](https://www.atlanticcouncil.org/programs/geoeconomics-center/cryptoregulationtracker/) —— 最权威全球加密监管地图
-- [Notabene Travel Rule Adoption Map](https://notabene.id/jurisdictions) —— 旅行规则全球落地分布图
-- [PwC Global Crypto Regulation Report 2026](https://www.pwc.com/gx/en/industries/financial-services/publications/global-crypto-regulation-report.html) —— 年度全球监管报告
+The following table classifies major jurisdictions based on their regulatory attitude toward crypto:
 
-**小贴士**：对于中文背景合规从业者，**香港、新加坡、迪拜、阿布扎比** 是落地与职业发展首选友好辖区。
+| Color | Attitude                  | Key Jurisdictions                                      | Characteristics |
+|-------|---------------------------|--------------------------------------------------------|-----------------|
+| 🟢    | Extremely Friendly        | Dubai (VARA), Abu Dhabi (ADGM), Singapore, Hong Kong, Switzerland | Proactive licensing, innovation-friendly policies, clear VASP frameworks |
+| 🟡    | Friendly                  | Japan, Australia, Canada, South Korea, Malaysia, Thailand | Well-defined regulations, supportive of licensed operators |
+| 🟠    | Moderate / Strict         | European Union (MiCA), United Kingdom (FCA), United States | Comprehensive licensing, higher compliance costs |
+| 🔴    | Highly Restrictive        | Mainland China, India (partial restrictions), Indonesia (fluctuating) | ICO/exchange bans or heavy restrictions |
+
+**Recommended Interactive Maps (Strongly Recommended)**:
+- [Atlantic Council Crypto Regulation Tracker](https://www.atlanticcouncil.org/programs/geoeconomics-center/cryptoregulationtracker/) — Most authoritative global crypto regulation map
+- [Notabene Travel Rule Adoption Map](https://notabene.id/jurisdictions) — Travel Rule implementation worldwide
+- [PwC Global Crypto Regulation Report 2026](https://www.pwc.com/gx/en/industries/financial-services/publications/global-crypto-regulation-report.html) — Annual global regulatory overview
 
 ## 2.2 欧美核心辖区
 ### MiCA（欧盟 Markets in Crypto-Assets）
