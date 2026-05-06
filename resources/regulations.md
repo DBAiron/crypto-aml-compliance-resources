@@ -1,5 +1,6 @@
-# 主要加密资产监管框架（2026最新）
-本文件整理了 Web3 / Crypto Compliance 领域最重要的监管框架，重点针对 **VASP（虚拟资产服务商）** 的合规要求。持续更新。
+# Major Crypto Regulatory Frameworks (2026 Latest)
+
+This document organizes the most important regulatory frameworks in the Web3 / Crypto Compliance field, with a focus on **VASP (Virtual Asset Service Provider)** compliance requirements. Continuously updated.
 
 ---
 
