@@ -87,7 +87,7 @@ This document organizes the most important regulatory frameworks in the Web3 / C
 
 ---
 
-# 2. Regional Regulation 分辖区监管
+# 2. Regional Regulation
 ## 2.1 Global Crypto Regulatory Friendliness Overview
 
 ### 🌍 Global Crypto Regulatory Friendliness Map (2026 Overview)
