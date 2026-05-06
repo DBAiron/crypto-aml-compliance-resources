@@ -106,72 +106,183 @@ The following table classifies major jurisdictions based on their regulatory att
 - [Notabene Travel Rule Adoption Map](https://notabene.id/jurisdictions) — Travel Rule implementation worldwide
 - [PwC Global Crypto Regulation Report 2026](https://www.pwc.com/gx/en/industries/financial-services/publications/global-crypto-regulation-report.html) — Annual global regulatory overview
 
-## 2.2 欧美核心辖区
-### MiCA（欧盟 Markets in Crypto-Assets）
-- **生效时间**：2024年全面实施。
-- **核心内容**：统一VASP许可、稳定币监管、信息披露、反市场操纵规则。
-- **对 VASP 的影响**：必须取得欧盟合规牌照才可面向欧盟用户提供服务。
-- **链接**： [MiCA 官方文本](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1114)
+## 2.2 Europe & Americas Core Jurisdictions
 
-### 英国 FCA 加密监管
-- 独立于欧盟体系，建立专属加密资产注册与牌照框架。
-- 重点：AML/CTF、旅行规则、客户资产隔离、营销合规管控。
-- 适配零售投资者保护与机构托管业务监管。
+### MiCA (Markets in Crypto-Assets - EU)
+- **Effective Date**: Fully implemented since 2024.
+- **Core Content**: Establishes a unified regulatory framework for crypto assets across the EU, covering VASP licensing, stablecoin regulation, transparency requirements, and market abuse prevention.
+- **Impact on VASPs**: VASPs must obtain an EU-wide license to provide services to users in the European Union.
+- **Key Link**: [MiCA Official Text](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1114)
 
-### 瑞士 FINMA 加密监管
-- 传统金融+加密合规高地，采用银行级合规标准。
-- 涵盖交易所、托管、稳定币、机构加密资产服务全牌照体系。
+### UK FCA Crypto Regulation
+- **Regulatory Approach**: Independent from the EU system. The UK has established its own dedicated crypto asset registration and licensing framework under the Financial Conduct Authority (FCA).
+- **Key Focus Areas**:
+  - AML/CTF compliance and Travel Rule implementation
+  - Client asset segregation and safeguarding
+  - Marketing and consumer protection rules
+  - Custody services for institutional and retail clients
+- **Current Status**: Crypto firms must register with the FCA and comply with stringent anti-money laundering and operational standards.
 
-### 美国监管体系
-#### FinCEN（金融犯罪执法网络）
-- **核心要求**：加密资产兑换、转账服务商需注册为 MSB。
-- **合规重点**：AML制度、强制KYC、可疑活动SAR报送。
-- **重要链接**：
-  - [FinCEN MSB 注册官方页面](https://www.fincen.gov/resources/money-services-business-msb-registration)
-  - [FinCEN 虚拟货币指导意见](https://www.fincen.gov/resources/statutes-regulations/guidance/application-fincens-regulations-certain-business-models)
+**Key Regulatory Documents & Links**:
+- [FCA Cryptoasset Registration Regime](https://www.fca.org.uk/firms/cryptoasset-registration) — Official registration and guidance page
+- [FCA Policy Statement PS23/6 - Cryptoasset Financial Promotions](https://www.fca.org.uk/publications/policy-statements/ps23-6-cryptoasset-financial-promotions) — Marketing and promotion rules
+- [FCA Guidance on Cryptoasset Activities](https://www.fca.org.uk/publications/finalised-guidance/fg19-3-guidance-cryptoasset-financial-promotions)
 
-#### SEC（美国证券交易委员会）
-- **核心要求**：通过 Howey Test 判定资产是否属于证券，受证券法约束。
-- **合规重点**：证券型代币、ICO/IDO、机构Staking、代币发行合规判定。
-- **2026年最新进展**：发布加密资产证券法适用解释指引，细化代币分类口径。
-- **重要链接**：
-  - [SEC Crypto Assets 主页](https://www.sec.gov/crypto-assets)
-  - [SEC 2026 Crypto Assets 解释性指引](https://www.sec.gov/newsroom/press-releases/2026-30-sec-clarifies-application-federal-securities-laws-crypto-assets)
-  - [完整指引 PDF](https://www.sec.gov/files/rules/interp/2026/33-11412.pdf)
+### Switzerland FINMA Crypto Regulation
+- **Regulatory Approach**: Switzerland is widely regarded as a **crypto-friendly jurisdiction** with bank-level compliance standards. FINMA (Swiss Financial Market Supervisory Authority) applies a technology-neutral but risk-based regulatory framework.
+- **Scope**: Covers licensing for crypto exchanges, custody services, stablecoins, token issuance, and institutional crypto asset services.
+- **Key Characteristics**: Clear licensing categories (e.g., FINMA License for trading, custody, and payment services), strong emphasis on AML/CTF, client asset protection, and capital requirements.
 
-## 2.3 亚太核心辖区
-### 香港（Hong Kong）
-- **监管机构**：SFC（证券及期货事务监察委员会）
-- **核心制度**：VATP虚拟资产交易平台牌照 + 全域VASP监管
-- **重点要求**：Travel Rule、客户资产隔离、投资者适当性管理
-- **最新进展**（2026）：牌照范围扩展至VA咨询、资产管理类服务
-- **链接**：
-  - [SFC 虚拟资产交易平台列表](https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms)
+**Key Regulatory Documents & Links**:
+- [FINMA Guidelines for Virtual Asset Service Providers (2026)](https://www.finma.ch/en/~/media/finma/dokumente/dokumentencenter/myfinma/4dokumentation/finma-aufsichtsmitteilungen/20250115-finma-aufsichtsmitteilung-2025-01-virtual-assets.pdf) — Main guidance on crypto regulation
+- [FINMA Circular 2019/1 on Crypto Assets](https://www.finma.ch/en/~/media/finma/dokumente/dokumentencenter/myfinma/4dokumentation/finma-rundschreiben/20190115-rundschreiben-2019-01-kryptoassets.pdf)
+- [FINMA Licensing for Blockchain & Crypto Businesses](https://www.finma.ch/en/authorisation/fintech/)
+
+### United States Regulatory System
+
+The United States has a **complex, dual-layered regulatory environment** (federal + state level), making it one of the most important yet challenging jurisdictions for global VASPs.
+
+#### FinCEN (Financial Crimes Enforcement Network)
+- **Core Requirement**: Entities engaged in virtual asset exchange, transfer, or custody activities must register as a **Money Services Business (MSB)**.
+- **Compliance Focus Areas**:
+  - Establishment of a comprehensive AML program
+  - Mandatory KYC / Customer Due Diligence
+  - Suspicious Activity Report (SAR) filing within 30 days
+  - Currency Transaction Report (CTR) for large transactions
+  - Record-keeping for at least 5 years
+- **Practical Impact**: Even decentralized platforms with significant U.S. users may be required to register.
+- **Key Links**:
+  - [FinCEN MSB Registration Official Page](https://www.fincen.gov/resources/money-services-business-msb-registration)
+  - [FinCEN Virtual Currency Guidance](https://www.fincen.gov/resources/statutes-regulations/guidance/application-fincens-regulations-certain-business-models)
+
+#### SEC (U.S. Securities and Exchange Commission)
+- **Core Requirement**: Digital assets are evaluated under the **Howey Test** to determine whether they qualify as securities.
+- **Compliance Focus Areas**:
+  - Securities-type tokens (Security Tokens)
+  - ICOs / IDOs / Token Sales
+  - Institutional staking services
+  - Secondary market trading of security tokens
+  - Disclosure, registration, and investor protection requirements
+- **2026 Latest Developments**: The SEC issued interpretive guidance clarifying the application of federal securities laws to certain crypto assets, providing more detailed token classification criteria.
+- **Practical Impact**: Many utility tokens and DeFi projects have been reclassified as securities, leading to significant enforcement actions.
+- **Key Links**:
+  - [SEC Crypto Assets Homepage](https://www.sec.gov/crypto-assets)
+  - [SEC 2026 Crypto Assets Interpretive Guidance](https://www.sec.gov/newsroom/press-releases/2026-30-sec-clarifies-application-federal-securities-laws-crypto-assets)
+  - [Full Guidance PDF](https://www.sec.gov/files/rules/interp/2026/33-11412.pdf)
+
+### Hong Kong
+- **Regulatory Authority**: SFC (Securities and Futures Commission)
+- **Core Regime**: Virtual Asset Trading Platform (VATP) licensing + comprehensive VASP regulatory framework.
+- **Key Requirements**:
+  - Implementation of the Travel Rule
+  - Client asset segregation and safeguarding
+  - Investor suitability assessment and protection
+  - Robust AML/CTF controls
+- **Latest Developments (2026)**: The SFC has expanded the scope of licenses to include VA advisory services, asset management, and other virtual asset-related activities.
+- **Key Links**:
+  - [SFC List of Licensed Virtual Asset Trading Platforms](https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms)
   - [SFC AML Guideline for VASPs](https://www.sfc.hk/-/media/EN/files/LSD/Gazette/GN-3120-of-2023.pdf)
 
-### 新加坡（Singapore）
-- **监管机构**：MAS（新加坡金融管理局）
-- **核心制度**：DPT数字支付代币服务牌照（Payment Services Act）
-- **重点要求**：实缴资本、AML/CTF内控、本地实体驻点、风控架构
-- **链接**：
-  - [MAS DPT 服务许可指南](https://www.mas.gov.sg/regulation/guidelines/guidelines-on-licensing-for-dtsps)
-  - [MAS Payment Services Act](https://www.mas.gov.sg/regulation/acts/payment-services-act)
+### Singapore
+- **Regulatory Authority**: MAS (Monetary Authority of Singapore)
+- **Core Regime**: Digital Payment Token (DPT) Services License under the **Payment Services Act (PSA)**.
+- **Strategic Importance**: Singapore is one of the most competitive and important hubs for global crypto exchanges and Web3 companies in Asia. Many major exchanges (Binance, OKX, Coinbase, etc.) have established significant operations or regional headquarters here.
 
-### 日本（Japan）
-- **监管机构**：FSA（金融厅）
-- **核心制度**：加密资产交易所注册制，逐步并入金融工具交易法监管
-- **重点要求**：严格AML、用户资产隔离、网络安全、投资者保护
-- **重要链接**：
-  - [FSA Crypto Asset Exchange Service Providers 注册列表](https://www.fsa.go.jp/en/regulated/licensed/en_kasoutuka.xlsx)
-  - [Guideline for Supervision of Crypto-Asset Exchange Service Providers](https://www.fsa.go.jp/common/law/guide/kaisya/e016.pdf)
-  - [FSA 加密资产监管页面](https://www.fsa.go.jp/en/policy/cryptocurrency.html)
+- **Key Requirements**:
+  - Minimum paid-up capital requirements
+  - Robust AML/CTF internal controls and policies
+  - Local entity presence and key personnel residency
+  - Comprehensive risk management framework
+  - Technology and cyber resilience standards
+  - Strict segregation of customer assets
 
-### 澳大利亚 AUSTRAC
-- 采用严格AML合规框架，VASP需注册、强制KYC/EDD、交易监控与可疑报送。
-- 纳入传统金融反洗钱监管体系，管控跨境加密转账与隐私资产交易。
+- **Latest Developments**: MAS continues to tighten standards while maintaining a balanced, innovation-friendly approach. Emphasis on stablecoin regulation, institutional custody, and cross-border compliance.
 
-### 韩国 加密专项法案
-- 实行交易所牌照制、实名账户绑定、大额交易上报、严格洗钱与用户资产保护规则。
+**Key Regulatory Documents & Links**:
+- [Guidelines on Licensing for Digital Token Service Providers](https://www.mas.gov.sg/regulation/guidelines/guidelines-on-licensing-for-dtsps) — Core licensing guide
+- [Payment Services Act (PSA)](https://www.mas.gov.sg/regulation/acts/payment-services-act) — Primary legislation
+- [MAS Notice on Prevention of Money Laundering and Countering the Financing of Terrorism](https://www.mas.gov.sg/regulation/notices/notice-on-prevention-of-money-laundering-and-countering-the-financing-of-terrorism)
+- [MAS Stablecoin Regulatory Framework](https://www.mas.gov.sg/news/media-releases/2023/mas-issues-stablecoin-regulatory-framework)
+
+**Practical Note**: Obtaining a DPT license in Singapore is highly regarded globally and often serves as a strong credibility signal for operations across Asia.
+
+### Japan
+- **Regulatory Authority**: FSA (Financial Services Agency / 金融庁)
+- **Core Regime**: Crypto Asset Exchange Service Provider registration system, gradually being integrated into the **Financial Instruments and Exchange Act (FIEA)**.
+- **Key Characteristics**: Japan maintains one of the strictest yet clear regulatory frameworks in Asia, emphasizing investor protection and market integrity.
+
+- **Key Requirements**:
+  - Rigorous AML/CTF controls and Travel Rule compliance
+  - Strict segregation and protection of user assets
+  - High cybersecurity and system resilience standards
+  - Investor suitability assessment and protection
+  - Capital requirements and risk management systems
+  - Regular audits and reporting obligations
+
+- **Latest Developments**: Japan is strengthening oversight by classifying more crypto activities under traditional financial instrument regulations, aiming for higher market stability.
+
+**Key Regulatory Documents & Links**:
+- [FSA List of Registered Crypto Asset Exchange Service Providers](https://www.fsa.go.jp/en/regulated/licensed/en_kasoutuka.xlsx)
+- [Guideline for Supervision of Crypto-Asset Exchange Service Providers](https://www.fsa.go.jp/common/law/guide/kaisya/e016.pdf)
+- [FSA Crypto Assets Regulatory Page](https://www.fsa.go.jp/en/policy/cryptocurrency.html)
+
+**Practical Note**: Japan’s strict but predictable regulatory environment makes it a preferred jurisdiction for long-term, compliance-focused crypto businesses.
+
+### Australia (AUSTRAC)
+- **Regulatory Authority**: AUSTRAC (Australian Transaction Reports and Analysis Centre)
+- **Core Regime**: Australia adopts a strict, comprehensive AML/CTF framework that treats crypto businesses similarly to traditional financial institutions. VASPs are required to register and comply with the same standards as banks and money remitters.
+
+- **Key Requirements**:
+  - Mandatory registration as a **Digital Currency Exchange (DCE)** or Remittance Service Provider
+  - Robust AML/CTF Program (risk assessment, policies, training, and ongoing compliance)
+  - Mandatory KYC and Enhanced Due Diligence (EDD) for higher-risk customers
+  - Transaction monitoring and suspicious matter reporting (SMR)
+  - Strict controls on cross-border crypto transfers and privacy coins
+  - Record keeping for at least 7 years
+
+- **Latest Developments (2026)**: Australia continues to tighten regulation on unregistered entities and has increased enforcement actions against non-compliant VASPs. Strong focus on consumer protection and combating money laundering through crypto channels.
+
+**Key Regulatory Documents & Links**:
+- [AUSTRAC Digital Currency Exchange Registration](https://www.austrac.gov.au/business/core-guidance/digital-currency-exchange)
+- [AUSTRAC AML/CTF Rules](https://www.austrac.gov.au/business/core-guidance/amlctf-rules)
+- [AUSTRAC Guidance on Crypto-Asset Service Providers](https://www.austrac.gov.au/business/core-guidance/crypto-asset-service-providers)
+- [AUSTRAC Annual Report & Enforcement Actions](https://www.austrac.gov.au/about-us/annual-reports)
+
+**Practical Note**: Australia’s regulatory environment is strict but predictable. Compliance with AUSTRAC standards is often viewed positively by other regulators in the Asia-Pacific region.
+
+### South Korea
+- **Regulatory Authority**: Financial Services Commission (FSC) and Financial Supervisory Service (FSS)
+- **Core Regime**: **Virtual Asset User Protection Act (VAUPA)** + Specific Financial Transactions Information Act.
+- **Key Requirements**:
+  - Mandatory licensing system for crypto exchanges and VASPs
+  - Real-name account binding (real-name verification mandatory)
+  - Strict AML/CTF controls and Travel Rule compliance
+  - Large transaction reporting and suspicious activity monitoring
+  - User asset protection and segregation rules
+  - Cybersecurity and operational resilience standards
+- **Latest Developments (2026)**: Korea continues to strengthen user protection and crack down on unregistered platforms while allowing licensed exchanges to operate under strict supervision.
+
+**Key Links**:
+- [FSC Virtual Asset Regulation](https://www.fsc.go.kr/eng/index)
+- [Virtual Asset User Protection Act Overview](https://www.fss.or.kr/fss/en/index.jsp)
+- [FSS Guidelines on Virtual Asset Business](https://www.fss.or.kr/)
+
+### Vietnam
+- **Regulatory Authority**: State Bank of Vietnam (SBV), Ministry of Finance, and Government Decree on Digital Assets.
+- **Core Regime**: Vietnam has not yet established a comprehensive licensing framework for VASPs, but regulation is tightening rapidly.
+- **Key Requirements and Status**:
+  - Cryptocurrency is not recognized as legal tender.
+  - ICOs and crypto fundraising activities are prohibited.
+  - Personal holding and trading of crypto assets is tolerated in a grey zone, but exchanges and service providers face increasing scrutiny.
+  - Strong focus on AML/CTF compliance and preventing money laundering through crypto channels.
+  - Recent moves toward developing a formal regulatory sandbox and clearer guidelines for digital assets.
+- **Latest Developments (2026)**: The government is actively studying comprehensive crypto regulation, with emphasis on consumer protection and financial stability.
+
+**Key Links**:
+- [State Bank of Vietnam - Digital Asset Statements](https://www.sbv.gov.vn/)
+- [Decree on Management of Virtual Currencies and Assets](https://www.sbv.gov.vn/)
+
+**Practical Note**: Vietnam remains a high-growth crypto market but carries significant regulatory uncertainty. Businesses should monitor developments closely before major commitments.
 
 ## 2.4 中东核心辖区
 ### 迪拜（Dubai） - VARA
