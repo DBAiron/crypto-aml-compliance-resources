@@ -284,67 +284,146 @@ The United States has a **complex, dual-layered regulatory environment** (federa
 
 **Practical Note**: Vietnam remains a high-growth crypto market but carries significant regulatory uncertainty. Businesses should monitor developments closely before major commitments.
 
-## 2.4 中东核心辖区
-### 迪拜（Dubai） - VARA
-- **监管机构**：VARA（虚拟资产监管局）
-- **核心制度**：全品类VASP官方牌照，全球Web3最友好辖区之一
-- **特点**：零售+机构业务双开放，支持衍生品、现货、托管全业务
-- **链接**：
-  - [VARA 官网](https://www.vara.ae/en/)
-  - [VARA Rulebooks](https://rulebooks.vara.ae/)
+## 2.4 Middle East Core Jurisdictions
 
-### 阿布扎比（Abu Dhabi） - ADGM
-- **监管机构**：FSRA（金融服务监管局）
-- **核心制度**：全球最早成熟的虚拟资产完整监管框架
-- **特点**：支持交易所、托管、Staking、机构资管，规则对标传统国际金融市场
-- **重要链接**：
-  - [Guidance – Regulation of Virtual Asset Activities in ADGM (2025更新)](https://en.adgm.thomsonreuters.com/rulebook/guidance-regulation-virtual-asset-activities-adgm-10-june-2025)
-  - [ADGM Virtual Asset Framework 官方页面](https://www.adgm.com/business-areas/digital-assets)
+### Dubai (VARA) - Virtual Assets Regulatory Authority
+- **Regulatory Authority**: VARA (Virtual Assets Regulatory Authority), established in 2022 under Dubai law.
+- **Core Regime**: One of the world’s most comprehensive and progressive virtual asset licensing frameworks.
+- **Key Characteristics** (Why it’s called a "Crypto Paradise"):
+  - Full licensing for all types of virtual asset activities (exchange, brokerage, custody, management, advisory, etc.).
+  - Supports both **retail and institutional** clients.
+  - Allows spot trading, derivatives, staking, and structured products.
+  - Fast and transparent licensing process.
+  - Strong government backing for Web3 innovation.
+- **Practical Advantages**: 0% corporate tax on qualifying activities in many free zones, excellent infrastructure, and strategic location.
+
+**Key Links**:
+- [VARA Official Website](https://www.vara.ae/en/)
+- [VARA Rulebooks & Regulations](https://rulebooks.vara.ae/)
+- [VARA Licensing Framework](https://www.vara.ae/en/licensing/)
 
 ---
 
-# 3. Sanctions Regime 全球制裁体系
-## 3.1 OFAC 美国制裁体系
-- **核心要求**：VASP必须筛查SDN特别指定国民清单，禁止直接/间接与制裁主体交易。
-- **合规重点**：链上钱包地址筛查、制裁规避交易识别、资产冻结与上报流程。
-- **对 Crypto 特殊意义**：多次将混币器、隐私协议地址纳入制裁，是全球化VASP必守红线。
+### Abu Dhabi (ADGM) - Financial Services Regulatory Authority
+- **Regulatory Authority**: FSRA (Financial Services Regulatory Authority) of Abu Dhabi Global Market.
+- **Core Regime**: One of the earliest and most mature virtual asset regulatory frameworks in the Middle East.
+- **Key Characteristics**:
+  - Highly aligned with traditional international financial standards.
+  - Supports exchanges, custody, staking, asset management, and token issuance.
+  - Strong focus on institutional business and investor protection.
+  - Clear rules for stablecoins and structured products.
+- **Practical Advantages**: Operates as an international financial free zone with common law system, highly attractive for institutional and traditional finance players entering crypto.
 
-**重要官方链接**：
+**Key Links**:
+- [ADGM Virtual Asset Framework](https://www.adgm.com/business-areas/digital-assets)
+- [Guidance on Regulation of Virtual Asset Activities in ADGM](https://en.adgm.thomsonreuters.com/rulebook/guidance-regulation-virtual-asset-activities-adgm-10-june-2025)
+
+**Practical Note for Chinese Speakers**: Dubai VARA and Abu Dhabi ADGM are currently two of the most attractive jurisdictions in the world for crypto companies seeking clear regulation, innovation support, and tax advantages.
+
+---
+
+# 3. Sanctions Regime
+
+Global sanctions regimes represent the **strictest red lines** in crypto compliance. Violations can lead to severe fines, license revocation, or criminal liability. VASPs must maintain robust, real-time sanctions screening systems.
+
+## 3.1 OFAC (United States)
+- **Core Requirement**: VASPs must screen against the SDN (Specially Designated Nationals) List and prohibit any direct or indirect transactions with sanctioned entities, including Indirect Exposure.
+- **Key Compliance Focus**:
+  - On-chain wallet and contract address screening
+  - Detection of sanctions evasion techniques (mixers, chain hopping, splitting transactions)
+  - Asset freezing and reporting procedures
+  - Ongoing monitoring and audit trails
+- **Special Significance in Crypto**: OFAC has repeatedly sanctioned mixers (e.g., Tornado Cash) and addresses linked to hackers or illicit activities, making it a non-negotiable requirement for global operations.
+
+**Key Links**:
 - [OFAC Virtual Currency Sanctions Compliance Guidance](https://ofac.treasury.gov/media/913571/download?inline)
-- [OFAC Sanctions List Search（实时查询工具）](https://sanctionssearch.ofac.treasury.gov/)
-- [OFAC 官网 - Virtual Currency 专题](https://ofac.treasury.gov/faqs/topic/1626)
+- [OFAC SDN List Search Tool](https://sanctionssearch.ofac.treas.gov/)
+- [OFAC Virtual Currency FAQ](https://ofac.treasury.gov/faqs/topic/1626)
 
-## 3.2 欧盟制裁体系
-- 独立于OFAC的区域性制裁清单，具备域外效力，面向欧盟业务必须单独筛查。
-- 涵盖个人、实体、机构、特定行业与司法管辖区限制。
-- **参考入口**：[EU Sanctions Map](https://www.sanctionsmap.eu/)
+## 3.2 EU Sanctions
+- Independent regional sanctions list with **extraterritorial effect**.
+- VASPs serving EU users must screen against the EU sanctions list separately.
+- Covers individuals, entities, sectors, and country-specific restrictions.
+- **Key Link**: [EU Sanctions Map](https://www.sanctionsmap.eu/)
 
-## 3.3 联合国制裁体系
-- 全球最高层级制裁决议，各国监管名单制定底层依据，VASP风控需纳入统一筛查池。
+## 3.3 United Nations Sanctions
+- The highest-level global sanctions framework.
+- Serves as the foundational legal basis for national sanctions lists.
+- VASPs should include UN sanctions lists in their unified screening pool.
+- **Key Link**: [UN Consolidated Sanctions List](https://www.un.org/securitycouncil/content/un-sc-consolidated-list)
+
+## 3.4 Sanctions Compliance Best Practices
+- Implement real-time multi-list screening (OFAC + EU + UN + local lists)
+- Use professional blockchain analytics tools for address-level screening
+- Establish clear procedures for handling sanctions matches (freeze, investigate, report)
+- Conduct regular sanctions compliance audits and staff training
+- Maintain comprehensive audit logs for at least 5–7 years
+
+**Critical Note**: Sanctions compliance is a **zero-tolerance** area. Even unintentional violations can have severe consequences.
 
 ---
 
-# 4. Business-Specific Rules 业务专项监管
-## 4.1 稳定币 专项监管
-- 适用框架：MiCA稳定币规则、美国FSOC、香港稳定币监管框架、新加坡MAS稳定币指引。
-- 核心要求：储备资产足额托管、透明度披露、兑付保障、市场稳定风控。
+# 4. Business-Specific Regulations
 
-## 4.2 托管 Custody 专项合规
-- 涵盖机构托管、交易所资产托管、第三方钱包托管服务。
-- 核心规则：用户资产隔离、分账管理、审计鉴证、私钥安全管控、破产隔离机制。
+This section covers specialized regulatory requirements for key crypto business models.
 
-## 4.3 DeFi 去中心化金融合规
-- FATF对DeFi无许可服务的AML/旅行规则适用口径、全球DeFi服务商合规义务。
-- 重点：协议开发者、前端运营、流动性池相关合规与风险管控。
+## 4.1 Stablecoins Regulation
+- **Applicable Frameworks**: MiCA Stablecoin Rules (EU), U.S. FSOC & Stablecoin Bills, Hong Kong Stablecoin Regulatory Framework, Singapore MAS Stablecoin Guidelines.
+- **Core Requirements**:
+  - Full reserve backing with high-quality assets held in custody
+  - Transparency and regular audits of reserves
+  - Redemption rights and payment finality guarantees
+  - Market stability mechanisms and systemic risk controls
+  - Issuer licensing and governance standards
+- **Key Links**:
+  - [MiCA Stablecoin Rules](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1114)
+  - [MAS Stablecoin Regulatory Framework](https://www.mas.gov.sg/news/media-releases/2023/mas-issues-stablecoin-regulatory-framework)
 
-## 4.4 Staking 质押业务合规
-- 各国对链上质押、机构理财类Staking的证券属性判定、披露要求、投资者适当性规则。
+## 4.2 Custody Services Regulation
+- **Scope**: Institutional custody, exchange-held assets, and third-party wallet/custody services.
+- **Core Requirements**:
+  - Strict segregation of client assets (bankruptcy remoteness)
+  - Multi-signature and cold storage best practices
+  - Regular independent audits and proof-of-reserves
+  - Private key management and cybersecurity controls
+  - Insurance coverage and operational resilience standards
+- **Key Links**:
+  - [FCA Custody Guidance](https://www.fca.org.uk/)
+  - [VARA Custody Rules](https://rulebooks.vara.ae/)
 
-## 4.5 RWA 现实资产代币化合规
-- 全球主流辖区对不动产、债券、大宗商品上链代币化的发行、备案、披露与合规框架。
+## 4.3 DeFi (Decentralized Finance) Compliance
+- **Regulatory Stance**: FATF guidance on DeFi services without a central intermediary.
+- **Key Challenges & Requirements**:
+  - Applicability of AML/Travel Rule to protocol developers, front-end operators, and liquidity providers
+  - Risk assessment of smart contracts and governance mechanisms
+  - Monitoring of high-risk activities (mixing, privacy protocols)
+  - Disclosure and investor protection for DeFi products
+- **Key Links**:
+  - [FATF DeFi Guidance](https://www.fatf-gafi.org/en/publications/Methodsandtrends/Virtual-assets.html)
 
-## 4.6 钱包 & 支付 & 衍生品 专项
-- 托管/非托管钱包合规边界、跨境加密支付监管、加密衍生品牌照与交易行为管控规则。
+## 4.4 Staking Regulation
+- **Key Issues**: Whether staking activities constitute securities offerings (Howey Test in US, similar tests elsewhere).
+- **Core Requirements**:
+  - Securities law compliance for pooled/centralized staking
+  - Disclosure of risks, yields, and lock-up periods
+  - Investor suitability and protection rules
+  - Tax treatment of staking rewards
+- **Key Links**:
+  - [SEC Staking Guidance & Enforcement Actions](https://www.sec.gov/crypto-assets)
+
+## 4.5 RWA (Real World Assets) Tokenization Regulation
+- **Scope**: Tokenization of real estate, bonds, commodities, and other traditional assets on blockchain.
+- **Core Requirements**:
+  - Issuance, offering, and secondary trading compliance
+  - KYC/AML on tokenized asset holders
+  - Disclosure and investor protection standards
+  - Legal enforceability of tokenized ownership rights
+
+## 4.6 Wallets, Payments & Derivatives
+- **Non-custodial vs Custodial Wallets**: Different compliance obligations
+- **Cross-border Payments**: Travel Rule and payment services licensing
+- **Derivatives**: Licensing for crypto futures, options, and perpetual contracts
+- **Key Focus**: Consumer protection, market integrity, and systemic risk control.
 
 ---
 
