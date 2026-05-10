@@ -601,21 +601,115 @@ Regulatory landscapes in crypto change rapidly. VASPs must establish a **systema
 
 ---
 
-# 6. Data & Privacy 数据与隐私合规
-## 6.1 GDPR 欧盟数据隐私框架
-- 适用于面向欧盟用户的所有VASP，涵盖用户个人信息收集、存储、跨境传输、删除权、知情权。
-- 约束KYC身份数据、交易日志、个人地址信息的全生命周期合规。
+## 6.1 GDPR (EU General Data Protection Regulation)
 
-## 6.2 各国数据本地化合规
-- 部分辖区要求用户敏感合规数据本地存储、禁止无授权跨境传输。
-- VASP需适配服务器部署、数据分域、访问权限管控等落地措施。
+The GDPR is one of the **strictest data privacy regulations** in the world and applies to any VASP that processes personal data of EU residents, even if the company is not based in the EU (extraterritorial effect).
 
-## 6.3 用户隐私与合规数据留存
-- 交易记录、KYC资料、风控日志法定留存年限、审计可追溯要求。
-- 平衡AML合规留痕与个人隐私保护双重红线。
+### Key Requirements for VASPs
+- **Lawful Basis for Processing**: Consent, contractual necessity, or legitimate interest must be clearly established for collecting and processing personal data.
+- **Data Subject Rights**:
+  - Right to access, rectification, erasure ("Right to be Forgotten"), and objection
+  - Right to data portability
+  - Right to withdraw consent at any time
+- **KYC & Transaction Data Handling**:
+  - Strict minimization principle — collect only necessary data
+  - Secure storage and protection of KYC documents, wallet addresses, transaction history
+  - Clear data retention policies (usually 5 years for AML purposes, then deletion)
+- **Cross-Border Data Transfers**: Adequate safeguards required when transferring personal data outside the EU (e.g., Standard Contractual Clauses, Binding Corporate Rules, or adequacy decisions).
+- **Technical & Organizational Measures**:
+  - Data Protection Impact Assessment (DPIA) for high-risk processing (e.g., large-scale KYC or biometric data)
+  - Appointment of a Data Protection Officer (DPO) in many cases
+  - Breach notification to authorities within 72 hours
+
+### Practical Compliance Tips for VASPs
+- Implement Privacy by Design and Privacy by Default in all systems
+- Maintain detailed Records of Processing Activities (RoPA)
+- Conduct regular staff training on data protection
+- Prepare for regulatory audits and data subject requests
+
+**Key Links**:
+- [GDPR Official Text (EUR-Lex)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
+- [EDPB Guidelines on Data Processing in AML/CTF Context](https://edpb.europa.eu/)
+- [EU Adequacy Decisions for Data Transfers](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en)
+- [ICO GDPR Guidance for Financial Services](https://ico.org.uk/for-organisations/sector-guides/financial-services/)
+
+**Note**: Non-compliance with GDPR can result in fines of up to **4% of global annual turnover** or €20 million (whichever is higher). Many VASPs have received significant fines for improper KYC data handling.
+
+## 6.2 Data Localization and Cross-Border Transfer Compliance
+
+Many jurisdictions impose **data localization requirements**, mandating that certain sensitive personal or compliance data be stored locally. This is a critical compliance area for global VASPs operating across multiple countries.
+
+### Key Requirements
+- **Data Localization**: Sensitive data (KYC documents, transaction records, user identities) must be stored on local servers or within the jurisdiction.
+- **Cross-Border Transfer Restrictions**: Personal data cannot be transferred outside the country without explicit authorization or adequate safeguards.
+- **Technical & Operational Measures**:
+  - Local server deployment or cloud regions
+  - Data segmentation and access control
+  - Encryption and pseudonymization where possible
+  - Regular audits of data storage and transfer practices
+
+### Major Jurisdictions with Data Localization Rules
+
+- **China**: Strict data localization under the Personal Information Protection Law (PIPL) and Cybersecurity Law. Critical data must be stored locally.
+- **Russia**: Federal Law 152-FZ requires personal data of Russian citizens to be stored locally.
+- **India**: Significant localization requirements under the Digital Personal Data Protection Act (DPDP) and RBI guidelines.
+- **Indonesia**: Personal data must be stored locally under Government Regulation 71.
+- **Vietnam**: Data localization requirements for certain financial and user data.
+- **EU (GDPR)**: While not full localization, strict rules on cross-border transfers apply.
+
+### Best Practices for VASPs
+- Conduct a **Data Mapping Exercise** to identify where personal data is stored and transferred.
+- Implement a **Data Residency Policy** tailored to each jurisdiction.
+- Use geo-fenced cloud solutions (e.g., AWS, Azure, Google Cloud local regions).
+- Maintain detailed records of all cross-border data transfers and legal basis.
+- Perform regular compliance audits and penetration testing.
+
+**Key Links**:
+- [GDPR Cross-Border Data Transfer Guidance](https://gdpr-info.eu/issues/international-transfers/)
+- [China PIPL Overview](https://www.pkulaw.com/en_law/2021-2022/2022-pipl.html)
+- [APEC Cross-Border Privacy Rules (CBPR)](https://www.cbprs.org/)
+- [IAPP Data Localization Guide](https://iapp.org/)
+
+**Practical Note**: Data localization significantly increases operational costs and complexity. VASPs should carefully evaluate market entry strategies and consider hybrid architectures (local storage for sensitive data + centralized analytics where permitted).
+
+## 6.3 User Privacy and Compliance Data Retention
+
+VASPs must carefully balance **AML/CTF compliance record-keeping obligations** with **data protection and privacy laws** (such as GDPR’s data minimization and storage limitation principles). Improper retention can lead to regulatory fines on both sides.
+
+### Key Requirements
+- **Statutory Retention Periods**: Transaction records, KYC documents, risk assessment logs, and audit trails must be kept for a minimum period required by AML laws.
+- **Auditability**: All records must be readily retrievable for regulatory inspections and audits.
+- **Privacy Protection**: Data should be deleted or anonymized once the legal retention period expires.
+
+### Retention Periods by Major Jurisdictions (2026)
+
+| Jurisdiction       | Minimum Retention Period                  | Key Records to Retain                     | Notes |
+|--------------------|-------------------------------------------|-------------------------------------------|-------|
+| **European Union (GDPR + AMLD)** | 5 years (AML)                             | KYC, transactions, due diligence          | GDPR requires deletion when no longer necessary |
+| **United States**  | 5 years (BSA/FinCEN)                      | MSB records, SARs, KYC                    | Can be longer for ongoing investigations |
+| **Hong Kong**      | 6 years (AMLO)                            | KYC, transaction records                  | SFC requires clear audit trails |
+| **Singapore**      | 5–6 years (MAS)                           | KYC, transaction monitoring logs          | Strong emphasis on data protection |
+| **Dubai (VARA)**   | 6–8 years                                 | All compliance and transaction records    | Strict audit requirements |
+| **Mainland China** | 5–10 years (depending on data type)       | KYC, transactions, risk logs              | PIPL + AML strict localization |
+
+### Best Practices
+- Implement a **Data Retention Policy** that clearly defines different retention periods by jurisdiction and data type.
+- Use automated tools to flag records for deletion or anonymization after the retention period.
+- Maintain a secure, tamper-proof audit trail for all compliance-related actions.
+- Conduct regular **Data Retention Audits** to ensure compliance with both AML and privacy laws.
+- Apply **data minimization** and pseudonymization techniques where possible.
+
+**Key Links**:
+- [FATF Recommendation 11 – Record Keeping](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html)
+- [GDPR Article 5 & 25 – Storage Limitation & Data Minimization](https://gdpr-info.eu/art-5-gdpr/)
+- [FinCEN Recordkeeping Requirements](https://www.fincen.gov/resources/statutes-regulations)
+- [Hong Kong AMLO Record Keeping Guidelines](https://www.sfc.hk/)
+
+**Important Note**: Striking the right balance between compliance retention and privacy protection is a common regulatory pain point. Over-retention can lead to GDPR fines, while under-retention can lead to AML violations.
 
 ---
 
-**最后更新**：2026年5月6日  
-**维护者**：Xiaobo Dai (DB Airon) - C3O Certified
-欢迎 PR 补充最新监管动态！
+**Last Updated**: May 10, 2026  
+**Maintained by**: Xiaobo Dai (DB Airon) - C3O Certified  
+
+This is an open-source living document. Feedback, corrections, and Pull Requests are highly appreciated to keep the handbook accurate and comprehensive.
